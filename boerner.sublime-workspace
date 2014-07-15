@@ -1,0 +1,305 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ho",
+				"host_array"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"the",
+				"theme"
+			],
+			[
+				"drupal_get",
+				"drupal_get_path	drupal_get_path"
+			],
+			[
+				"inc",
+				"include_once"
+			],
+			[
+				"ste",
+				"stellen_kennziffer"
+			],
+			[
+				"ba",
+				"base_path	base_path"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"st",
+				"stelle"
+			],
+			[
+				"la",
+				"language"
+			],
+			[
+				"var",
+				"var_dump"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 306.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/hkramer/Documents/Aptana_Workspace/intranet/htdocs/sites/all/modules/arts/arts_stellen/arts_stellen.module",
+		"/home/hkramer/Documents/Aptana_Workspace/intranet/htdocs/sites/all/modules/arts/aamt_helper/aamt_helper.module",
+		"/home/hkramer/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/hkramer/www/tageskinder/tageskinder.sublime-project",
+		"/home/hkramer/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/hkramer/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/hkramer/.config/sublime-text-3/Packages/User/SublimeGit.sublime-settings",
+		"/home/hkramer/.config/sublime-text-3/Packages/SublimeGit/Default (Linux).sublime-keymap",
+		"/home/hkramer/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/hkramer/.config/sublime-text-3/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/home/hkramer/.config/sublime-text-3/Packages/User/SideBarGit.sublime-settings",
+		"/home/hkramer/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/hkramer/www/tageskinder/htdocs/.gitignore",
+		"/home/hkramer/www/arts/sites/default/settings.php",
+		"/home/hkramer/www/arts/sites/all/modules/arts/arts_stellen/arts_stellen.module",
+		"/home/hkramer/www/arts/sites/all/modules/arts/sync_data_server/sync_data_server.module",
+		"/home/hkramer/www/arts/sites/all/modules/arts/arts_bewerber/arts_bewerber.module",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/arts_2014_01.info",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/xml-feeds/views-view-field--xmlfeed-jobs-kompakt--feed-1--nothing-3.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/xml-feeds/views-view-field--xmlfeed-jooble--feed-1--field-stelle-aufgaben-value.tpl.php",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/views/handlers/views_handler_field.inc",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/xml-feeds/views-view-field--xmlfeed-kimeta--feed-1--einsatzort-2.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/template.php",
+		"/home/hkramer/www/arts/sites/all/modules/arts/arts_jquery_update/arts_jquery_update.module",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/print/INSTALL.txt",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/print/README.txt",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/views/theme/views-view.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/bewerber-node-form.tpl.php",
+		"/home/hkramer/www/arts/sites/all/modules/arts/arts_jquery_update/arts_jquery_update.install",
+		"/home/hkramer/www/arts/sites/all/modules/arts/arts_jquery_update/arts_jquery_update.info",
+		"/home/hkramer/www/arts/sites/all/modules/arts/arts_jquery_update/arts_jquery_update.api.php",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/jquery_update/jquery_update.module",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/piwik/piwik.module",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/page.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2012/views/ansprechpartner/views-view-field--field-ansprechpartner-funktion-value.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2012/template.php",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/views/theme/views-view-unformatted.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2012/views/ansprechpartner/views-view-unformatted--ansprechpartner.tpl.php",
+		"/home/hkramer/www/arts/sites/all/modules/arts/arts_form_helper/arts_form_helper.module",
+		"/home/hkramer/www/arts/sites/all/modules/rel_to_abs/rel_to_abs.module",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/intlinks/intlinks.module",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/intlinks/intlinks_common_functions.inc",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/views-view-fields--Regionen--page-1.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/views-view-fields--Regionen--block-regionen.tpl.php",
+		"/home/hkramer/www/arts/sites/all/modules/arts/arts_stellen/includes/stelle.inc",
+		"/home/hkramer/www/arts/sites/all/libraries/dompdf/include/frame_tree.cls.php",
+		"/home/hkramer/www/arts/sites/all/libraries/dompdf/readme.html",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/print_html.tpl.php",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/i18n/i18n.module",
+		"/home/hkramer/www/arts/sites/all/libraries/dompdf/include/stylesheet.cls.php",
+		"/home/hkramer/www/arts/sites/default/i18n-ascii.txt",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/i18n/i18nblocks/i18nblocks.module",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/views/theme/views-view-fields.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2012/views/xml-feeds/views-bonus-export-xml--YourAviationJob-XML-Feed.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2012/views/xml-feeds/views-bonus-export-xml--xmlfeed-jooble--feed-1.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/node-stelle.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/templates/block-mainmenu_oc.tpl.php",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/css/styles.css",
+		"/home/hkramer/www/arts/sites/all/themes/arts_2014_01/js/oc-menu.js",
+		"/home/hkramer/www/arts/sites/all/modules/drupal/intlinks/intlinks_title_filter.inc",
+		"/home/hkramer/www/arts/arts.sublime-project"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/hkramer/www/arts/sites/all/modules/arts",
+			"/home/hkramer/www/arts/sites/all/modules/drupal"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"einsatz_region",
+			"sync_data_server_node_",
+			"sync_data_server_node_stelle",
+			"sync_data_server_check_client",
+			"views-view",
+			"jquery_",
+			"Ü",
+			"'/(src|href)=(\\'|\")' . preg_quote($base_path, '/') . '/',",
+			"mm-page",
+			"app_for",
+			"sync_data_server_get_node_reference"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"project": "boerner.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 541.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
