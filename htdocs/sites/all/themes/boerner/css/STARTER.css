@@ -8212,3 +8212,14 @@ th.hide-for-touch {
 #edit-submitted-nachricht {
   height: 10rem;
 }
+
+/* style fahrzeuge-node-form */
+#fahrzeuge-node-form input {
+  width: 20rem;
+}
+
+#fahrzeuge-node-form .form-type-textfield {
+  width: 22rem;
+  border: 1px solid #cccccc;
+  padding: 1rem;
+}
