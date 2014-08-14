@@ -1,11 +1,11 @@
 <!--.page -->
 <div role="document" class="page">
 
-  <div class="row" data-equalizer>  
-    <div class="small-2 columns" data-equalizer-watch>
+  <div class="row margin-bottom-2" data-equalizer>  
+    <div class="small-6 columns padding-0" data-equalizer-watch>
       <?php if ($linked_logo): print $linked_logo; endif; ?>
     </div>
-    <div class="small-10 columns" data-equalizer-watch>
+    <div class="small-6 columns" data-equalizer-watch>
       <?php if ($site_name): ?>
         <?php if ($title): ?>
           <strong class="align-bottom">

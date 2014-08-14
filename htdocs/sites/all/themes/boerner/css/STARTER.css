@@ -8223,3 +8223,11 @@ th.hide-for-touch {
   border: 1px solid #cccccc;
   padding: 1rem;
 }
+
+.padding-0 {
+  padding: 0rem;
+}
+
+.margin-bottom-2 {
+  margin-bottom: 2rem;
+}

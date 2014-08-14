@@ -110,6 +110,16 @@
 				"buffer_size": 207354,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"contents": "[SideBarGit@SublimeText] \n[master f3d4f59] Neu module\n 129 files changed, 17097 insertions(+), 8469 deletions(-)\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/CHANGELOG.txt\n rename htdocs/sites/all/modules/{mvf => better_exposed_filters}/LICENSE.txt (100%)\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/README.txt\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/better_exposed_filters.css\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/better_exposed_filters.info\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/better_exposed_filters.js\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/better_exposed_filters.module\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/better_exposed_filters.theme\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/better_exposed_filters.views.inc\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/better_exposed_filters_exposed_form_plugin.inc\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/tests/bef_test_content/bef_test_content.features.field_base.inc\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/tests/bef_test_content/bef_test_content.features.field_instance.inc\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/tests/bef_test_content/bef_test_content.features.inc\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/tests/bef_test_content/bef_test_content.features.taxonomy.inc\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/tests/bef_test_content/bef_test_content.info\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/tests/bef_test_content/bef_test_content.module\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/tests/bef_test_content/bef_test_content.views_default.inc\n create mode 100644 htdocs/sites/all/modules/better_exposed_filters/tests/better_exposed_filters.test\n rename htdocs/sites/all/modules/{rel => contextual_range_filter}/LICENSE.txt (100%)\n mode change 100644 => 100755\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/README.txt\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/contextual_range_filter.admin.inc\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/contextual_range_filter.info\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/contextual_range_filter.install\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/contextual_range_filter.module\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/views/contextual_range_filter.views.inc\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/views/contextual_range_filter_handler_argument_date_range.inc\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/views/contextual_range_filter_handler_argument_list_range.inc\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/views/contextual_range_filter_handler_argument_numeric_range.inc\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/views/contextual_range_filter_handler_argument_string_range.inc\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/views/contextual_range_filter_plugin_argument_validate_numeric_range.inc\n create mode 100644 htdocs/sites/all/modules/contextual_range_filter/views/contextual_range_filter_plugin_argument_validate_string_range.inc\n rename htdocs/sites/all/modules/{units => entityreference_filter}/LICENSE.txt (100%)\n create mode 100644 htdocs/sites/all/modules/entityreference_filter/entityreference_filter.info\n create mode 100644 htdocs/sites/all/modules/entityreference_filter/entityreference_filter.js\n create mode 100644 htdocs/sites/all/modules/entityreference_filter/entityreference_filter.module\n create mode 100644 htdocs/sites/all/modules/entityreference_filter/entityreference_filter.views.inc\n create mode 100644 htdocs/sites/all/modules/entityreference_filter/views/entityreference_filter_view_result.inc\n rename htdocs/sites/all/modules/{unitsapi => finder}/LICENSE.txt (100%)\n create mode 100755 htdocs/sites/all/modules/finder/README.txt\n create mode 100755 htdocs/sites/all/modules/finder/finder.api.php\n create mode 100644 htdocs/sites/all/modules/finder/finder.info\n create mode 100755 htdocs/sites/all/modules/finder/finder.install\n create mode 100644 htdocs/sites/all/modules/finder/finder.js\n create mode 100755 htdocs/sites/all/modules/finder/finder.module\n create mode 100644 htdocs/sites/all/modules/finder/includes/build.inc\n create mode 100644 htdocs/sites/all/modules/finder/includes/finder.inc\n create mode 100644 htdocs/sites/all/modules/finder/includes/form.inc\n create mode 100644 htdocs/sites/all/modules/finder/includes/theme.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/finder_ui.api.php\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/finder_ui.css\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/finder_ui.i18n_string.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/finder_ui.info\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/finder_ui.js\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/finder_ui.module\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/finder_ui_reload.js\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/images/close.png\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/includes/common.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/includes/element-item.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/includes/element.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/includes/field.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/includes/finder.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/includes/item.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/includes/theme.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/plugins/export_ui/finder_ui.class.php\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_ui/plugins/export_ui/finder_ui.inc\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_wizard/finder_wizard.info\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_wizard/finder_wizard.js\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_wizard/finder_wizard.module\n create mode 100644 htdocs/sites/all/modules/finder/modules/finder_wizard/plugins/element_handler/page.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/autocomplete.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/autocomplete.js\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/buttons.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/fieldset.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/group.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/onoff.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/row.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/select.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/element_handler/text.inc\n create mode 100644 htdocs/sites/all/modules/finder/plugins/finder_default/finder.finder_default.inc\n create mode 100644 htdocs/sites/all/modules/finder/views/finder.views.inc\n create mode 100644 htdocs/sites/all/modules/finder/views/finder.views_default.inc\n create mode 100644 htdocs/sites/all/modules/finder/views/finder_plugin_display.inc\n create mode 100644 htdocs/sites/all/modules/finder/views/finder_plugin_style.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/README.txt\n delete mode 100644 htdocs/sites/all/modules/mvf/includes/EntityReference_SelectionHandler_Generic_units_unit.class.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/includes/MVFUnitSuggestable.interface.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/includes/MVFUnitSuggesterHardCoded.class.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/includes/MVFUnitSuggesterLocale.class.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/includes/MVFUnitSuggesterOriginal.class.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/includes/NumericFieldFilterConverterMVF.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/mvf.api.php\n delete mode 100644 htdocs/sites/all/modules/mvf/mvf.css\n delete mode 100644 htdocs/sites/all/modules/mvf/mvf.info\n delete mode 100644 htdocs/sites/all/modules/mvf/mvf.install\n delete mode 100644 htdocs/sites/all/modules/mvf/mvf.module\n delete mode 100644 htdocs/sites/all/modules/mvf/views/mvf.views.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/views/mvf_handler_field_mvf.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/views/mvf_handler_filter_mvf.inc\n delete mode 100644 htdocs/sites/all/modules/mvf/views/mvf_handler_sort_mvf.inc\n delete mode 100644 htdocs/sites/all/modules/rel/CHANGELOG.txt\n delete mode 100644 htdocs/sites/all/modules/rel/rel.admin.css\n delete mode 100644 htdocs/sites/all/modules/rel/rel.admin.inc\n delete mode 100644 htdocs/sites/all/modules/rel/rel.api.php\n delete mode 100644 htdocs/sites/all/modules/rel/rel.info\n delete mode 100644 htdocs/sites/all/modules/rel/rel.install\n delete mode 100644 htdocs/sites/all/modules/rel/rel.js\n delete mode 100644 htdocs/sites/all/modules/rel/rel.module\n delete mode 100644 htdocs/sites/all/modules/rel/rel.test\n delete mode 100644 htdocs/sites/all/modules/rel/tests/rel_test.info\n delete mode 100644 htdocs/sites/all/modules/rel/tests/rel_test.module\n delete mode 100644 htdocs/sites/all/modules/units/README.txt\n delete mode 100644 htdocs/sites/all/modules/units/includes/UnitsMeasureEntity.class.inc\n delete mode 100644 htdocs/sites/all/modules/units/includes/UnitsMeasureUIController.class.inc\n delete mode 100644 htdocs/sites/all/modules/units/includes/UnitsUnitEntity.class.inc\n delete mode 100644 htdocs/sites/all/modules/units/includes/UnitsUnitUIController.class.inc\n delete mode 100644 htdocs/sites/all/modules/units/units.api.php\n delete mode 100644 htdocs/sites/all/modules/units/units.info\n delete mode 100644 htdocs/sites/all/modules/units/units.install\n delete mode 100644 htdocs/sites/all/modules/units/units.module\n delete mode 100644 htdocs/sites/all/modules/units/units_ui.info\n delete mode 100644 htdocs/sites/all/modules/units/units_ui.module\n delete mode 100644 htdocs/sites/all/modules/unitsapi/README.txt\n delete mode 100644 htdocs/sites/all/modules/unitsapi/units.xml\n delete mode 100644 htdocs/sites/all/modules/unitsapi/unitsapi.info\n delete mode 100644 htdocs/sites/all/modules/unitsapi/unitsapi.module\n delete mode 100644 htdocs/sites/all/modules/unitsapi/unitsapi.test",
+			"settings":
+			{
+				"buffer_size": 11105,
+				"line_ending": "Unix",
+				"name": "[SideBarGit@SublimeText]",
+				"scratch": true
+			}
 		}
 	],
 	"build_system": "",
@@ -276,7 +286,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -411,7 +421,7 @@
 						"translation.y": 258.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -548,7 +558,7 @@
 						"translation.y": 21369.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -685,7 +695,7 @@
 						"translation.y": 1224.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -718,7 +728,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -751,7 +761,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -886,6 +896,140 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 139062.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[SideBarGit@SublimeText]",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 561.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
