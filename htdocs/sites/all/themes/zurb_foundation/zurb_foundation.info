@@ -1,5 +1,5 @@
 name = ZURB Foundation
-description = Drupal implementation of the Zurb Foundation 5 framework.
+description = Drupal implementation of the Zurb Foundation 5.x framework.
 core = 7.x
 engine = phptemplate
 
@@ -64,9 +64,9 @@ settings[zurb_foundation_html_tags] = 1
 settings[zurb_foundation_messages_modal] = 0
 settings[zurb_foundation_pager_center] = 1
 
-; Information added by Drupal.org packaging script on 2014-07-09
-version = "7.x-5.0-alpha7"
+; Information added by Drupal.org packaging script on 2014-08-13
+version = "7.x-5.0-alpha8"
 core = "7.x"
 project = "zurb_foundation"
-datestamp = "1404929331"
+datestamp = "1407933229"
 

@@ -101,7 +101,7 @@
 
       <a id="main-content"></a>
 
-      <?php if ($title && !$is_front): ?>
+      <?php if ($title && !$is_front && FALSE == TRUE): ?>
         <?php print render($title_prefix); ?>
         <h1 id="page-title" class="title"><?php print $title; ?></h1>
         <?php print render($title_suffix); ?>

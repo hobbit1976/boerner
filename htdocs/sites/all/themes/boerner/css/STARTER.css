@@ -6006,7 +6006,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #3AAADC;
+  background: #E31B2C;
   font-size: 16px;
   margin: 0;
 }
@@ -6169,7 +6169,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 422, ../scss/components/_top-bar.scss */
   .top-bar {
-    background: #3AAADC;
+    background: #E31B2C;
     *zoom: 1;
     overflow: visible;
   }
@@ -6243,7 +6243,7 @@ meta.foundation-mq-topbar {
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
-    background: #3AAADC;
+    background: #E31B2C;
   }
   /* line 475, ../scss/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -8230,4 +8230,21 @@ th.hide-for-touch {
 
 .margin-bottom-2 {
   margin-bottom: 2rem;
+}
+
+header.row {
+  margin-bottom: 2rem;
+}
+
+div.main {
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.node-kontakt h1 {
+  font-size: 1.75rem
+}
+
+.node-kontakt h2 {
+  font-size: 1.50rem
 }
