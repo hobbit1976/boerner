@@ -1,11 +1,11 @@
 <!--.page -->
 <div role="document" class="page">
 
-  <div class="row margin-bottom-2" data-equalizer>  
-    <div class="small-6 columns padding-0" data-equalizer-watch>
+  <div class="row margin-bottom-2 padding-top-2" data-equalizer>  
+    <div class="small-4 columns padding-0 logo-height" data-equalizer-watch>
       <?php if ($linked_logo): print $linked_logo; endif; ?>
     </div>
-    <div class="small-6 columns" data-equalizer-watch>
+    <div class="small-5 columns" data-equalizer-watch>
       <?php if ($site_name): ?>
         <?php if ($title): ?>
           <strong class="align-bottom">
@@ -16,6 +16,13 @@
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
           </h1>
         <?php endif; ?>
+      <?php endif; ?>
+    </div>
+    <div class="small-3 columns" data-equalizer-watch>    
+      <?php if (!empty($page['top_menu'])): ?>
+        <div class="top-menu">
+          <?php print render($page['top_menu']); ?>
+        </div>
       <?php endif; ?>
     </div>
   </div>
@@ -179,22 +186,30 @@
     <!--/.footer-columns-->
   <?php endif; ?>
 
+  <div class="boerner-footer row">
+    <div class="large-3 columns">
+      <?php if (!empty($page['footer_menu'])): ?>
+        <div class="footer-menu">
+          <?php print render($page['footer_menu']); ?>
+        </div>
+      <?php endif; ?>
+    </div>
+    <div class="large-5 columns"></div>
+    <div class="large-4 columns">
+      <span class="footer-red">TRUCK-TEAM-BOERNER</span> <span  class="footer-normal">we live for trucks</span>
+    </div>
+  </div>
+
   <!--.l-footer-->
-  <footer class="l-footer panel row" role="contentinfo">
+  <footer class="l-footer row" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
       <div class="footer large-12 columns">
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>
-
-    <?php if ($site_name) :?>
-      <div class="copyright large-12 columns">
-        &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
-      </div>
-    <?php endif; ?>
+    
   </footer>
   <!--/.footer-->
 
-  <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
 </div>
 <!--/.page -->

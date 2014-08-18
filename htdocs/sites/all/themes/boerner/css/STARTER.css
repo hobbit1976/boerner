@@ -94,7 +94,8 @@ script {
  */
 /* line 70, ../scss/_normalize.scss */
 html {
-  font-family: sans-serif;
+  @font-face { font-family: 'Bell Gothic Std Black'; src: url('sites/all/themes/boerner/css/font/bell_gothic_std_black.eot'); src: url('sites/all/themes/boerner/css/font/bell_gothic_std_black.eot?#iefix') format('embedded-opentype'), url('sites/all/themes/boerner/css/font/bell_gothic_std_black.svg#Bell Gothic Std Black') format('svg'), url('sites/all/themes/boerner/css/font/bell_gothic_std_black.woff') format('woff'), url('sites/all/themes/boerner/css/font/bell_gothic_std_black.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -318,7 +319,7 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   /* 1 */
   font-size: 100%;
   /* 2 */
@@ -509,11 +510,11 @@ body {
 
 /* line 309, ../scss/components/_global.scss */
 body {
-  background: white;
-  color: #222222;
+  background: #ffffff;
+  color: #545053;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1948,8 +1949,8 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
+  font-size: 0.85rem;
 }
 /* line 36, ../scss/components/_accordion.scss */
 .accordion dd > a:hover {
@@ -2647,7 +2648,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3833,7 +3834,7 @@ input[type="url"],
 textarea {
   -webkit-appearance: none;
   background-color: white;
-  font-family: inherit;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   border: 1px solid #cccccc;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -4096,7 +4097,7 @@ label.error {
   z-index: 101;
   top: 0;
   left: 2.5%;
-  font-family: inherit;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   font-weight: normal;
   width: 95%;
 }
@@ -4190,7 +4191,7 @@ label.error {
 .joyride-timer-indicator {
   display: block;
   width: 0;
-  height: inherit;
+  height: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   background: #666666;
 }
 
@@ -4250,7 +4251,7 @@ label.error {
   /* line 190, ../scss/components/_joyride.scss */
   .joyride-tip-guide {
     width: 300px;
-    left: inherit;
+    left: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   }
   /* line 192, ../scss/components/_joyride.scss */
   .joyride-tip-guide .joyride-nub.bottom {
@@ -4300,14 +4301,14 @@ kbd {
 /* line 87, ../scss/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
   white-space: nowrap;
   display: inline-block;
   position: relative;
-  margin-bottom: inherit;
+  margin-bottom: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   padding: 0.25rem 0.5rem 0.375rem;
   font-size: 0.6875rem;
   background-color: #008cba;
@@ -4865,7 +4866,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
 }
 /* line 139, ../scss/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -4875,7 +4876,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
 }
 /* line 140, ../scss/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5066,7 +5067,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
 }
 /* line 57, ../scss/components/_side-nav.scss */
 .side-nav li {
@@ -5086,7 +5087,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
 }
 /* line 74, ../scss/components/_side-nav.scss */
 .side-nav li.divider {
@@ -5255,7 +5256,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5601,7 +5602,7 @@ table tfoot tr td {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 43, ../scss/components/_tabs.scss */
@@ -5997,6 +5998,7 @@ meta.foundation-mq-topbar {
   left: 0;
   position: relative;
   width: auto;
+  margin-left: 5rem;
   -webkit-transition: left 300ms ease-out;
   -moz-transition: left 300ms ease-out;
   transition: left 300ms ease-out;
@@ -6006,7 +6008,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #E31B2C;
+  background: #E4232C;
   font-size: 16px;
   margin: 0;
 }
@@ -6025,8 +6027,8 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 0.8125rem;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
+  font-size: 1.0rem;
   font-weight: normal;
   background: #333333;
 }
@@ -6039,7 +6041,7 @@ meta.foundation-mq-topbar {
 }
 /* line 305, ../scss/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
-  background: #006688;
+  background: #E4232C;
 }
 /* line 309, ../scss/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
@@ -6169,7 +6171,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 422, ../scss/components/_top-bar.scss */
   .top-bar {
-    background: #E31B2C;
+    background: #E4232C;
     *zoom: 1;
     overflow: visible;
   }
@@ -6645,21 +6647,21 @@ a img {
 /* Default paragraph styles */
 /* line 242, ../scss/components/_type.scss */
 p {
-  font-family: inherit;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 0.85rem;
+  line-height: 1.4;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
 /* line 250, ../scss/components/_type.scss */
 p.lead {
-  font-size: 1.21875rem;
+  font-size: 0.85rem;
   line-height: 1.6;
 }
 /* line 252, ../scss/components/_type.scss */
 p aside {
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   line-height: 1.35;
   font-style: italic;
 }
@@ -6667,14 +6669,14 @@ p aside {
 /* Default header styles */
 /* line 260, ../scss/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #bea096;
   text-rendering: optimizeLegibility;
-  margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
+  margin-top: 0.0rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
 }
 /* line 270, ../scss/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -6685,32 +6687,32 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 277, ../scss/components/_type.scss */
 h1 {
-  font-size: 2.125rem;
+  font-size: 1.125rem;
 }
 
 /* line 278, ../scss/components/_type.scss */
 h2 {
-  font-size: 1.6875rem;
+  font-size: 1.0rem;
 }
 
 /* line 279, ../scss/components/_type.scss */
 h3 {
-  font-size: 1.375rem;
+  font-size: 0.95rem;
 }
 
 /* line 280, ../scss/components/_type.scss */
 h4 {
-  font-size: 1.125rem;
+  font-size: 0.85rem;
 }
 
 /* line 281, ../scss/components/_type.scss */
 h5 {
-  font-size: 1.125rem;
+  font-size: 0.85rem;
 }
 
 /* line 282, ../scss/components/_type.scss */
 h6 {
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 /* line 284, ../scss/components/_type.scss */
@@ -6764,11 +6766,11 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1rem;
+  font-size: 0.85rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
-  font-family: inherit;
+  font-family: "Bell Gothic Std Black", Helvetica, Arial, sans-serif;
 }
 
 /* line 329, ../scss/components/_type.scss */
@@ -6922,27 +6924,27 @@ blockquote p {
 @media only screen and (min-width: 40.063em) {
   /* line 456, ../scss/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4;
+    line-height: 1.2;
   }
 
   /* line 457, ../scss/components/_type.scss */
   h1 {
-    font-size: 2.75rem;
+    font-size: 1.125rem;
   }
 
   /* line 458, ../scss/components/_type.scss */
   h2 {
-    font-size: 2.3125rem;
+    font-size: 1.0rem;
   }
 
   /* line 459, ../scss/components/_type.scss */
   h3 {
-    font-size: 1.6875rem;
+    font-size: 0.95rem;
   }
 
   /* line 460, ../scss/components/_type.scss */
   h4 {
-    font-size: 1.4375rem;
+    font-size: 0.8rem;
   }
 }
 /*
@@ -8234,6 +8236,7 @@ th.hide-for-touch {
 
 header.row {
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 div.main {
@@ -8242,9 +8245,71 @@ div.main {
 }
 
 .node-kontakt h1 {
-  font-size: 1.75rem
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .node-kontakt h2 {
-  font-size: 1.50rem
+  font-size: 0.95rem;
+}
+
+.padding-top-2 {
+  padding-top: 2rem;
+}
+
+.top-menu ul {
+  list-style: none outside none;
+  display: inline;
+  float: left;
+}
+
+.top-menu ul li {
+  list-style: none outside none;
+  display: inline;
+  float: left;
+  padding-right: 0.5rem;
+}
+
+.top-menu ul li a {
+  color: #545053;
+}
+
+.top-menu {
+  margin-top: -0.5rem;
+  margin-left: 0.0rem;
+  margin-right: 0.0rem;
+  padding: 0.0rem;
+}
+
+.footer-menu ul li {
+  list-style: none outside none;
+  display: inline;
+  float: left;
+  padding-right: 0.5rem;
+}
+
+.footer-menu ul li a {
+  color: #545053;
+}
+
+.footer-menu {
+  margin-top: -0.5rem;
+  margin-left: 0.0rem;
+  margin-right: 0.0rem;
+  padding: 0.0rem;
+}
+
+.footer-red {
+  font-size: 0.85rem;
+  color: #bea096
+}
+
+.footer-normal {
+  font-size: 0.85rem;
+  color: #453135
+}
+
+.boerner-footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
