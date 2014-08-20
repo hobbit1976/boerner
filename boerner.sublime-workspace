@@ -4,8 +4,60 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-color"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"mo",
+				"margin-bottom"
+			],
+			[
 				"fon",
 				"font-size"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"s",
+				"span	<span>"
+			],
+			[
+				"cl",
+				"class=  (attribute)"
+			],
+			[
+				"d",
+				"div	<div>"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"h",
+				"max-height"
 			],
 			[
 				"pad",
@@ -14,10 +66,6 @@
 			[
 				"padding",
 				"padding-right"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"bo",
@@ -56,10 +104,6 @@
 				"stellen_kennziffer"
 			],
 			[
-				"ba",
-				"base_path	base_path"
-			],
-			[
 				"te",
 				"text"
 			],
@@ -79,6 +123,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "htdocs/sites/all/themes/boerner/css/STARTER.css",
+			"settings":
+			{
+				"buffer_size": 210131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "htdocs/sites/all/themes/boerner/templates/page.tpl.php",
+			"settings":
+			{
+				"buffer_size": 7197,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -132,13 +192,13 @@
 	},
 	"file_history":
 	[
-		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/templates/page.tpl.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/css/STARTER.css",
+		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/boerner.info",
+		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/templates/page.tpl.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/template.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/zurb_foundation/template.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/zurb_foundation/ds_layouts/zf_2col_bricks/zf-2col-bricks.tpl.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/zurb_foundation/ds_layouts/zf_2col_bricks/zf_2col_bricks.inc",
-		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/boerner.info",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/theme-settings.php",
 		"/home/hkramer/www/boerner/config/dev.boerner.local",
 		"/home/hkramer/Documents/Aptana_Workspace/intranet/htdocs/sites/all/modules/arts/arts_stellen/arts_stellen.module",
@@ -221,6 +281,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"inherit",
+			"Helvetica",
+			"0.75rem",
 			"sie sind",
 			"einsatz_region",
 			"sync_data_server_node_",
@@ -250,8 +313,283 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "htdocs/sites/all/themes/boerner/css/STARTER.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 210131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210125,
+								210125
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 141287.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "htdocs/sites/all/themes/boerner/templates/page.tpl.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
