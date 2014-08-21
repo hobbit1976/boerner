@@ -8429,3 +8429,46 @@ div.main {
   float: right;
   margin-right: 0.8rem; 
 }
+
+.node-fahrzeuge .field-name-field-fahrzeuge-bilder {
+
+}
+
+.node-fahrzeuge .group-fahrzeug-zeile-1,
+.node-fahrzeuge .group-fahrzeug-zeile-2,
+.node-fahrzeuge .group-fahrzeug-zeile-3 {
+  margin-bottom: 2.0rem;
+}
+
+.node-fahrzeuge a.init-colorbox-processed img {
+  margin-right: 0.65rem;
+  margin-bottom: 0.8rem;
+}
+
+.group-fahrzeug-gruppe {
+  margin-left: 0.0rem;
+  padding-left: 0.0rem;
+  font-size: 0.85rem;
+}
+
+.group-fahrzeug-gruppe .field-label {
+  font-weight: normal;
+  margin-right: 0.2rem;
+  font-weight: normal;
+  min-width: 5rem;
+}
+
+.group-fahrzeug-gruppe h2 {
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 0.0rem;
+  line-height: 1;
+  color: #545053;
+}
+
+.group-fahrzeug-gruppe ul {
+  margin: 0.0rem;
+  padding: 0.0rem;
+  list-style: none;
+  line-height: 1;
+}
