@@ -4,24 +4,44 @@
 		"selected_items":
 		[
 			[
-				"te",
-				"text-align"
+				"m",
+				"margin-right"
 			],
 			[
-				"pa",
-				"padding-right"
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"i",
+				"italic"
 			],
 			[
 				"fo",
 				"font-weight"
 			],
 			[
-				"ma",
-				"margin-right"
+				"pa",
+				"padding"
 			],
 			[
-				"m",
-				"margin-left"
+				"fon",
+				"font-weight"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"te",
+				"text-align"
 			],
 			[
 				"font",
@@ -42,10 +62,6 @@
 			[
 				"mo",
 				"margin-bottom"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"p",
@@ -143,7 +159,7 @@
 			"file": "htdocs/sites/all/themes/boerner/css/STARTER.css",
 			"settings":
 			{
-				"buffer_size": 211908,
+				"buffer_size": 214473,
 				"line_ending": "Unix"
 			}
 		},
@@ -356,7 +372,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -365,15 +381,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 211908,
+						"buffer_size": 214473,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								208907,
-								208907
+								213641,
+								213641
 							]
 						],
 						"settings":
@@ -490,10 +506,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 140360.0,
+						"translation.y": 144645.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -627,7 +643,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -758,7 +774,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1017,7 +1033,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 374.0,
+	"side_bar_width": 300.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

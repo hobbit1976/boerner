@@ -78,7 +78,7 @@
     <!--/.l-featured -->
   <?php endif; ?>
 
-  <?php if ($messages && !$zurb_foundation_messages_modal): ?>
+  <?php if ($user->uid != 0 && $messages && !$zurb_foundation_messages_modal): ?>
     <!--/.l-messages -->
     <section class="l-messages row">
       <div class="large-12 columns">

@@ -6241,7 +6241,17 @@ meta.foundation-mq-topbar {
     background: #453135;
     color: white;
   }
+
+  .top-bar-section ul.dropdown li.hover > a:not(.button) {
+    background: #453135;
+    color: white;
+  }
   /* line 471, ../scss/components/_top-bar.scss */
+  .top-bar-section ul.dropdown li:not(.has-form) a:not(.button) {
+    padding: 0 15px;
+    line-height: 45px;
+    background: #BEA096;
+  }
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
@@ -6249,6 +6259,9 @@ meta.foundation-mq-topbar {
   }
   /* line 475, ../scss/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: #453135;
+  }
+  .top-bar-section ul.dropdown li:not(.has-form) a:not(.button):hover {
     background: #453135;
   }
   /* line 479, ../scss/components/_top-bar.scss */
@@ -8437,7 +8450,28 @@ div.main {
 .node-fahrzeuge .group-fahrzeug-zeile-1,
 .node-fahrzeuge .group-fahrzeug-zeile-2,
 .node-fahrzeuge .group-fahrzeug-zeile-3 {
-  margin-bottom: 2.0rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+  background-color: #f2f2f2;
+  padding-left: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.node-fahrzeuge .group-fahrzeug-zeile-2,
+.node-fahrzeuge .group-fahrzeug-zeile-3,
+.node-fahrzeuge .field-name-title {
+  padding-top: 0.8rem
+} 
+
+.node-fahrzeuge .group-fahrzeug-zeile-1 {
+  height: 123px;
+
+}
+
+.node-fahrzeuge .field-name-field-fahrzeug-kategorie,
+.node-fahrzeuge .field-name-title {  
+  background-color: #f2f2f2;
+  padding-left: 0.8rem;
 }
 
 .node-fahrzeuge a.init-colorbox-processed img {
@@ -8449,6 +8483,12 @@ div.main {
   margin-left: 0.0rem;
   padding-left: 0.0rem;
   font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.group-fahrzeug-gruppe ul,
+.group-fahrzeug-gruppe ul li {
+  font-size: 0.85rem;
 }
 
 .group-fahrzeug-gruppe .field-label {
@@ -8456,19 +8496,270 @@ div.main {
   margin-right: 0.2rem;
   font-weight: normal;
   min-width: 5rem;
+  line-height: 1.4;
 }
 
 .group-fahrzeug-gruppe h2 {
   font-size: 0.85rem;
   font-weight: normal;
   margin: 0.0rem;
-  line-height: 1;
   color: #545053;
+  line-height: 1.4;
 }
 
-.group-fahrzeug-gruppe ul {
+.group-fahrzeug-zeile-1 ul {
   margin: 0.0rem;
   padding: 0.0rem;
   list-style: none;
-  line-height: 1;
+  line-height: 1.4;
+}
+
+.group-fahrzeug-zeile-1 h3,
+.group-fahrzeug-zeile-2 h3,
+.group-fahrzeug-zeile-3 h3 {
+  display: none;
+}
+
+.group-fahrzeug-zeile-1 {
+  margin-top: 1.0rem;
+}
+
+.group-fahrzeug-zeile-2 {
+  margin-top: 2.0rem;
+}
+
+.group-fahrzeug-zeile-3 {
+  margin-top: 0.5rem;
+}
+
+.field-name-field-fahrzeug-kategorie {
+  margin-bottom: 0.0rem;
+  padding-bottom: 0.2rem;
+}
+
+.field-name-field-fahrzeug-kategorie ul {
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 0.0rem;
+  color: #545053;
+  font-style: italic;
+  list-style: none;
+  line-height: 1.4;
+}
+
+.node-fahrzeuge h1 {
+  margin-bottom: 0.0rem;
+}
+
+.node-fahrzeuge .group-left,
+.node-fahrzeuge .group-right {
+  margin-right: 0.0rem;
+  margin-left: 0.0rem;
+
+}
+
+.node-fahrzeuge .group-left {
+  padding-right: 0.0rem;
+}
+
+.node-fahrzeuge .group-left img {
+  border: none;
+}
+
+.node-fahrzeuge .group-right {
+  padding-left: 0.0rem;
+  background-color: #f2f2f2;
+}
+
+.field-group-html-element span {
+  font-size: 1.125rem;
+  color: #bea096;
+}
+
+.view-fahrzeugangebote ul {  
+  list-style: none;
+  margin-left: 0rem;
+}
+
+.view-fahrzeugangebote ul li {  
+  list-style: none;
+  margin-left: 0rem;
+  background-color: #f2f2f2;
+}
+
+.view-fahrzeugangebote ul li .node-fahrzeuge {
+  margin-bottom: 0.5rem;
+}
+
+.view-fahrzeugangebote h2 {
+  margin-bottom: 0.1rem;
+}
+
+.block-views-fahrzeugteaser-block {
+  font-size: 0.85rem;
+  background-color: #453135;
+  min-height: 250px;
+  color: #ffffff;
+  line-height: 1.0rem;
+}
+
+.view-fahrzeugangebote .item-list div.node-fahrzeuge {
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.view-fahrzeugangebote .node-fahrzeuge .group-fahrzeug-zeile-1 {
+  height: auto;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.view-fahrzeugangebote .node-fahrzeuge img {
+  margin-bottom: 0rem;
+}
+
+.view-fahrzeugangebote .node-fahrzeuge .group-left {
+  padding-right: 0rem;
+}
+
+.block-views-fahrzeugteaser-block .views-field-field-fahrzeuge-bilder,
+.block-views-fahrzeugteaser-block .views-field-field-fahrzeuge-bilder-1 {
+  float: left;
+}
+
+.block-views-fahrzeugteaser-block .views-field-field-fahrzeuge-bilder-1 {
+  margin-right: 1.5rem;
+}
+
+.block-views-fahrzeugteaser-block .views-field-title,
+.block-views-fahrzeugteaser-block .views-field-field-fahrzeug-gesamtgewicht {
+
+}
+
+.block-views-fahrzeugteaser-block a.button {
+  background-color: #E31B2C;  
+  color: #ffffff;
+  padding: 0.3rem;
+  -webkit-box-shadow: -3px 3px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    -3px 3px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         -3px 3px 0px rgba(50, 50, 50, 0.75);
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 0.0rem;
+  float: right;
+  margin-right: 0.8rem; 
+}
+
+.block-views-fahrzeugteaser-block .views-field-nothing-1,
+.block-views-fahrzeugteaser-block .views-field-title {
+  font-weight: bold;
+}
+
+.block-views-fahrzeugteaser-block .views-field-nothing-1 {
+  padding-top: 1.8rem;
+}
+
+.block-views-fahrzeugteaser-block .views-field-title {
+  padding-top: 1.0rem;
+}
+
+.block-views-fahrzeugteaser-block .views-label-field-fahrzeug-gesamtgewicht,
+.block-views-fahrzeugteaser-block .views-label-field-fahrzeug-leistung,
+.block-views-fahrzeugteaser-block .views-label-field-fahrzeug-kraftstoffart,
+.block-views-fahrzeugteaser-block .views-label-field-fahrzeug-brutto-preis,
+.block-views-fahrzeugteaser-block .views-label-field-fahrzeug-erstzulassung {
+  float: left;
+  min-width: 7.0rem;
+}
+
+.block-views-fahrzeugteaser-block .views-field-nothing {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.block-views-fahrzeugteaser-block {
+  line-height: 1.4;
+}
+
+.view-mode-fahrzeug_teaser_uebersicht .group-fahrzeug-gruppe,
+.view-mode-fahrzeug_teaser_uebersicht .group-fahrzeug-gruppe .field-label,
+.view-mode-fahrzeug_teaser_uebersicht .group-fahrzeug-gruppe ul,
+.view-mode-fahrzeug_teaser_uebersicht .group-fahrzeug-gruppe ul li,
+.view-mode-fahrzeug_teaser_uebersicht .group-fahrzeug-gruppe h2 {
+  line-height: 1rem;
+}
+
+.view-mode-fahrzeug_teaser_uebersicht .group-fahrzeug-gruppe ul li {
+  margin: 0rem;
+}
+
+#main-menu ul.dropdown {
+  background-color: black;
+}
+
+.node-startseite .group-left,
+.node-startseite .group-right {
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+.node-startseite .group-left .field-type-entityreference {
+  background-color: #BEA096;
+}
+
+.node-startseite .group-right .field-type-entityreference {
+  background-color: #545053;
+}
+
+.row div.node-startseite {
+  margin-top: 2.0rem;
+  line-height: 1.4;
+}
+
+.row div.node-startseite h2 {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
+  font-size: 0.85rem;
+}
+
+.row div.node-startseite .field-name-field-allg-seite-haupttext {
+  padding-right: 0.8rem;
+}
+
+.row div.node-startseite a.more-link {
+  color: #ffffff;
+  position: relative;
+  font-weight: bold;
+}
+
+.field-name-field-teaser-block-view-ref {
+  color: #ffffff;
+  font-size: 0.85rem;
+  min-height: 6rem;
+  line-height: 1.4; 
+}
+
+.field-name-field-teaser-block-view-ref .views-field-title {
+  font-weight: bold;
+}
+
+.field-name-field-teaser-block-view-ref span.views-label {
+  float: left;
+  min-width: 7rem;
+}
+
+.field-type-entityreference a.button {
+  background-color: #E31B2C;  
+  color: #ffffff;
+  padding: 0.3rem;
+  -webkit-box-shadow: -3px 3px 0px rgba(50, 50, 50, 0.95);
+  -moz-box-shadow:    -3px 3px 0px rgba(50, 50, 50, 0.95);
+  box-shadow:         -3px 3px 0px rgba(50, 50, 50, 0.95);
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 0.0rem;
+  float: right;
+  margin-right: 0.8rem; 
+  margin-top: 1.0rem;
 }
