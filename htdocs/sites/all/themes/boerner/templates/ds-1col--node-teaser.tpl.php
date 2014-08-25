@@ -1,6 +1,6 @@
 <?php
 
-$teaser_box = array('5' => 'box-1', '4' => 'box-2', '6' => 'box-3', '7' => 'box-4');
+$teaser_box = array('5' => 'teaser-node-box teaser-node-box-1', '4' => 'teaser-node-box teaser-node-box-2', '6' => 'teaser-node-box teaser-node-box-3', '7' => 'teaser-node-box teaser-node-box-4');
 $teaser_typ = $node->field_teaser_typ['und'][0]['tid'];
 /**
  * @file

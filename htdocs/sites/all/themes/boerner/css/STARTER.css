@@ -8266,6 +8266,12 @@ div.main {
   font-size: 0.95rem;
 }
 
+.node-kontakt .field-name-field-kontakt-aufgabenbereich {
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
 .padding-top-2 {
   padding-top: 2rem;
 }
@@ -8363,73 +8369,62 @@ div.main {
   font-size: 0.85rem;
 }
 
-.node-teaser h3 {
+.teaser-node-box h3 {
   margin-bottom: 0.4rem;  
   color: #ffffff;
   font-size: 0.85rem;
   font-weight: bold;  
 }
 
-.field-name-field-allg-seite-teaser-1 .node-teaser {
+.teaser-node-box {
   margin-top: 0.5rem;
   padding: 0.7rem;
-}
-
-.field-name-field-allg-seite-teaser-2 .node-teaser {
-  background-color: #545053;
   color: #ffffff;
-  padding: 0.7rem;
 }
 
-.field-name-field-allg-seite-teaser-3 .node-teaser {
-  margin-top: 0.5rem;
-  background-color: #545053;
-  color: #ffffff;
-  padding: 0.7rem;
+.node-fahrzeuge .teaser-node-box .field-name-title {
+  padding-left: 0rem;
 }
 
-.field-name-field-allg-seite-teaser-1 .box-1,
-.field-name-field-allg-seite-teaser-2 .box-1,
-.field-name-field-allg-seite-teaser-3 .box-1 {
+.teaser-node-box-1,
+.teaser-node-box-1 h3,
+.node-fahrzeuge .teaser-node-box-1 .field-name-title {
   background-color: #545053;
   color: #ffffff;  
 }
 
-.field-name-field-allg-seite-teaser-1 .box-1 a,
-.field-name-field-allg-seite-teaser-2 .box-1 a,
-.field-name-field-allg-seite-teaser-3 .box-1 a {
+.teaser-node-box-1 a {
   background-color: #545053;
   color: #ffffff;  
 }
 
-.field-name-field-allg-seite-teaser-1 .box-1 p,
-.field-name-field-allg-seite-teaser-2 .box-1 p,
-.field-name-field-allg-seite-teaser-3 .box-1 p {
+.teaser-node-box-1 p {
   margin-bottom: 0.0rem;  
 }
 
-.field-name-field-allg-seite-teaser-1 .box-2,
-.field-name-field-allg-seite-teaser-2 .box-2,
-.field-name-field-allg-seite-teaser-3 .box-2 {
-  background-color: #453135;
-  color: #ffffff;  
-}
-
-.field-name-field-allg-seite-teaser-1 .box-3,
-.field-name-field-allg-seite-teaser-2 .box-3,
-.field-name-field-allg-seite-teaser-3 .box-3 {
-  background-color: #453135;
-  color: #ffffff;  
-}
-
-.field-name-field-allg-seite-teaser-1 .box-4,
-.field-name-field-allg-seite-teaser-2 .box-4,
-.field-name-field-allg-seite-teaser-3 .box-4 {
+.teaser-node-box-2,
+.teaser-node-box-2 h3,
+.node-fahrzeuge .teaser-node-box-2 .field-name-title  {
   background-color: #BEA096;
   color: #ffffff;  
 }
 
-.node-teaser a.button {
+.teaser-node-box-3,
+.teaser-node-box-3 h3,
+.node-fahrzeuge .teaser-node-box-3 .field-name-title  {
+  background-color: #453135;
+  color: #ffffff;  
+}
+
+.teaser-node-box-4,
+.teaser-node-box-4 h3,
+.node-fahrzeuge .teaser-node-box-4 .field-name-title  {
+  background-color: #BEA096;
+  color: #ffffff;  
+}
+
+.node-teaser a.button,
+.sviews-exposed-form button {
   background-color: #E31B2C;  
   color: #ffffff;
   padding: 0.3rem;
@@ -8455,6 +8450,18 @@ div.main {
   background-color: #f2f2f2;
   padding-left: 0.8rem;
   padding-bottom: 0.8rem;
+}
+
+.view-id-fahrzeugangebote .view-mode-fahrzeug_teaser_uebersicht .group-right {
+  background-color: #f2f2f2;
+}
+
+.view-mode-full .group-right .group-fahrzeug-zeile-1,
+.view-mode-full .group-right .group-fahrzeug-zeile-2,
+.view-mode-full .group-right .group-fahrzeug-zeile-3,
+.view-mode-full .group-right .field-name-field-fahrzeug-kategorie,
+.view-mode-full .group-right .field-name-title {
+  background-color: #ffffff;
 }
 
 .node-fahrzeuge .group-fahrzeug-zeile-2,
@@ -8568,7 +8575,7 @@ div.main {
 
 .node-fahrzeuge .group-right {
   padding-left: 0.0rem;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 
 .field-group-html-element span {
@@ -8672,8 +8679,8 @@ div.main {
 }
 
 .block-views-fahrzeugteaser-block .views-field-nothing {
-  margin-top: 2rem;
-  margin-right: 2rem;
+  margin-top: 1.5rem;
+  margin-right: 0.8rem;
 }
 
 .block-views-fahrzeugteaser-block {
@@ -8702,11 +8709,13 @@ div.main {
   font-size: 0.85rem;
 }
 
-.node-startseite .group-left .field-type-entityreference {
+.node-startseite .group-left .field-type-entityreference,
+.node-startseite .group-left .field-type-entityreference .field-name-title h2 {
   background-color: #BEA096;
 }
 
-.node-startseite .group-right .field-type-entityreference {
+.node-startseite .group-right .field-type-entityreference, 
+.node-startseite .group-right .field-type-entityreference .field-name-title h2 {
   background-color: #545053;
 }
 
@@ -8733,11 +8742,13 @@ div.main {
   font-weight: bold;
 }
 
-.field-name-field-teaser-block-view-ref {
+.teaser-node-box .field-name-field-teaser-block-view-ref,
+.teaser-node-box .field-name-field-teaser-text {
   color: #ffffff;
   font-size: 0.85rem;
   min-height: 6rem;
-  line-height: 1.4; 
+  line-height: 1.4;
+  margin-top: 0.8rem; 
 }
 
 .field-name-field-teaser-block-view-ref .views-field-title {
@@ -8749,7 +8760,8 @@ div.main {
   min-width: 7rem;
 }
 
-.field-type-entityreference a.button {
+.teaser-node-box a.button,
+.views-exposed-form button {
   background-color: #E31B2C;  
   color: #ffffff;
   padding: 0.3rem;
@@ -8758,8 +8770,42 @@ div.main {
   box-shadow:         -3px 3px 0px rgba(50, 50, 50, 0.95);
   font-size: 0.85rem;
   font-weight: bold;
-  margin-bottom: 0.0rem;
+  margin-bottom: 0.8rem;
   float: right;
   margin-right: 0.8rem; 
   margin-top: 1.0rem;
+}
+
+section.block-views-fahrzeugteaser-block {
+  margin-bottom: 1.3rem;
+}
+
+.node-allgemeine-seite .group-right div.teaser-node-box {
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+
+.views-exposed-form select {
+  height: 1.3rem;
+  margin: 0rem;
+}
+
+.views-exposed-form .views-exposed-widget #edit-field-fahrzeug-erstzulassung-value-min-wrapper {
+  margin: 0rem;
+  padding: 0rem;
+  float: left;
+}
+.views-exposed-form .views-exposed-widget #edit-field-fahrzeug-erstzulassung-value-max-wrapper {
+  float: right;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.views-exposed-form .views-exposed-widget label {
+  font-size: 0.95;
+  font-weight: normal;
+}
+
+.block-views-exp-fahrzeugangebote-page h2 {
+  margin-bottom: 0.8rem;
 }
