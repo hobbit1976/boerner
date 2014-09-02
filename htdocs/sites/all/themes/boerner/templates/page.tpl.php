@@ -36,7 +36,7 @@
       <?php if ($top_bar_classes): ?>
       <div class="<?php print $top_bar_classes; ?>">
       <?php endif; ?>
-        <nav class="top-bar" data-topbar <?php print $top_bar_options; ?>>
+        <nav class="top-bar  large-centered large-10 columns" data-topbar <?php print $top_bar_options; ?>>
           <ul class="title-area">
             <li class="toggle-topbar menu-icon"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>

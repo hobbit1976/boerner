@@ -5998,7 +5998,6 @@ meta.foundation-mq-topbar {
   left: 0;
   position: relative;
   width: auto;
-  margin-left: 6rem;
   -webkit-transition: left 300ms ease-out;
   -moz-transition: left 300ms ease-out;
   transition: left 300ms ease-out;
@@ -8257,6 +8256,10 @@ div.main {
   padding-left: 0rem;
 }
 
+header .contain-to-grid {
+  background-color: #e4232c;
+}
+
 .node-kontakt h1 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
@@ -8602,12 +8605,15 @@ div.main {
   margin-bottom: 0.1rem;
 }
 
-.block-views-fahrzeugteaser-block {
+.block-views-fahrzeugteaser-block .group-right {
   font-size: 0.85rem;
   background-color: #453135;
-  min-height: 250px;
   color: #ffffff;
   line-height: 1.0rem;
+  padding-top: 1.8rem;
+  padding-left: 1.0rem;
+  padding-right: 1.0rem;
+  padding-bottom: 1.0rem; 
 }
 
 .view-fahrzeugangebote .item-list div.node-fahrzeuge {
@@ -8628,18 +8634,15 @@ div.main {
   padding-right: 0rem;
 }
 
-.block-views-fahrzeugteaser-block .views-field-field-fahrzeuge-bilder,
-.block-views-fahrzeugteaser-block .views-field-field-fahrzeuge-bilder-1 {
-  float: left;
+.block-views-fahrzeugteaser-block .group-middle {
+  padding: 0.0rem;
 }
 
-.block-views-fahrzeugteaser-block .views-field-field-fahrzeuge-bilder-1 {
-  margin-right: 1.5rem;
+.block-views-fahrzeugteaser-block .group-left {
+  padding: 0.0rem;
 }
 
-.block-views-fahrzeugteaser-block .views-field-title,
-.block-views-fahrzeugteaser-block .views-field-field-fahrzeug-gesamtgewicht {
-
+.block-views-fahrzeugteaser-block .group-right {
 }
 
 .block-views-fahrzeugteaser-block a.button {
@@ -8653,20 +8656,78 @@ div.main {
   font-weight: bold;
   margin-bottom: 0.0rem;
   float: right;
-  margin-right: 0.8rem; 
+  margin-right: 0.8rem;
+
 }
 
-.block-views-fahrzeugteaser-block .views-field-nothing-1,
-.block-views-fahrzeugteaser-block .views-field-title {
+.block-views-fahrzeugteaser-block .field-name-title,
+.block-views-fahrzeugteaser-block .field-name-title h3,
+.block-views-fahrzeugteaser-block .group-ueberschrift h2,
+.block-views-fahrzeugteaser-block .group-ueberschrift h2 span {
+  padding: 0.0rem;
+  margin: 0.0rem;
+  background-color: #453135;
+  color: #ffffff;
   font-weight: bold;
+  line-height: 1.4;
 }
 
-.block-views-fahrzeugteaser-block .views-field-nothing-1 {
-  padding-top: 1.8rem;
+div.view-mode-fahrzeugteaser_gross {  
+  background-color: #453135;
 }
 
-.block-views-fahrzeugteaser-block .views-field-title {
-  padding-top: 1.0rem;
+.row .block-views-fahrzeugteaser-block .row {
+  margin: 0.0rem;
+}
+
+.view-mode-fahrzeugteaser_gross .group-right {
+  padding-left: 1.8rem;
+  padding-top: 1rem;
+}
+
+.view-mode-fahrzeugteaser_gross .field-name-uebersicht-fahrzeuge {
+  margin-top: 1.0rem;
+}
+
+.block-views-fahrzeugteaser-block .field-name-field-fahrzeug-kraftstoffart,
+.block-views-fahrzeugteaser-block .field-name-field-fahrzeug-gesamtgewicht,
+.block-views-fahrzeugteaser-block .field-name-field-fahrzeug-leistung,
+.block-views-fahrzeugteaser-block .field-name-field-fahrzeug-erstzulassung,
+.block-views-fahrzeugteaser-block .field-name-field-fahrzeug-brutto-preis,
+.block-views-fahrzeugteaser-block .field-label,
+.block-views-fahrzeugteaser-block .field-name-field-fahrzeug-kraftstoffart h2.field-label {
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.4;
+  font-size: 0.85rem;
+  margin: 0rem;
+
+}
+
+.block-views-fahrzeugteaser-block .field-label {
+  min-width: 5.5rem;
+}
+
+.block-views-fahrzeugteaser-block .field-name-fahrzeug-title-25 {  
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.4;
+  font-size: 0.85rem;
+}
+
+.block-views-fahrzeugteaser-block .field-name-fahrzeug-title-25 .label-above {
+  margin-bottom: 1.0rem;
+}
+
+.block-views-fahrzeugteaser-block .field-name-field-fahrzeug-kraftstoffart ul,
+.block-views-fahrzeugteaser-block .field-name-field-fahrzeug-kraftstoffart li {
+  list-style: none;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.4;
+  font-size: 0.85rem;
+  margin: 0rem;
+
 }
 
 .block-views-fahrzeugteaser-block .views-label-field-fahrzeug-gesamtgewicht,
@@ -8676,11 +8737,6 @@ div.main {
 .block-views-fahrzeugteaser-block .views-label-field-fahrzeug-erstzulassung {
   float: left;
   min-width: 7.0rem;
-}
-
-.block-views-fahrzeugteaser-block .views-field-nothing {
-  margin-top: 1.5rem;
-  margin-right: 0.8rem;
 }
 
 .block-views-fahrzeugteaser-block {

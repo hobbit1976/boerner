@@ -4,24 +4,28 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-bottom"
+			],
+			[
 				"pa",
-				"padding-right"
+				"padding"
+			],
+			[
+				"fon",
+				"font-weight"
 			],
 			[
 				"m",
 				"margin-bottom"
 			],
 			[
-				"ma",
-				"margin-bottom"
+				"fo",
+				"font-weight"
 			],
 			[
 				"f",
 				"font-weight"
-			],
-			[
-				"fo",
-				"font-size"
 			],
 			[
 				"li",
@@ -46,10 +50,6 @@
 			[
 				"i",
 				"italic"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"di",
@@ -167,52 +167,7 @@
 			"file": "htdocs/sites/all/themes/boerner/css/STARTER.css",
 			"settings":
 			{
-				"buffer_size": 219024,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "[SideBarGit@SublimeText] \n[master f5fc159] Theming & css\n 10 files changed, 1867 insertions(+), 27 deletions(-)\n create mode 100755 htdocs/sites/all/modules/blockreference/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/blockreference/MigrateBlockReferenceFieldHandler.inc\n create mode 100644 htdocs/sites/all/modules/blockreference/README.txt\n create mode 100644 htdocs/sites/all/modules/blockreference/blockreference.api.php\n create mode 100644 htdocs/sites/all/modules/blockreference/blockreference.info\n create mode 100644 htdocs/sites/all/modules/blockreference/blockreference.install\n create mode 100644 htdocs/sites/all/modules/blockreference/blockreference.module",
-			"settings":
-			{
-				"buffer_size": 680,
-				"line_ending": "Unix",
-				"name": "[SideBarGit@SublimeText]",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "[SideBarGit@SublimeText] \n[master 7b6cf49] Theme Teaser\n 204 files changed, 19891 insertions(+), 17 deletions(-)\n create mode 100644 htdocs/sites/all/libraries/colorbox/README.md\n create mode 100644 htdocs/sites/all/libraries/colorbox/bower.json\n create mode 100644 htdocs/sites/all/libraries/colorbox/colorbox.ai\n create mode 100644 htdocs/sites/all/libraries/colorbox/colorbox.jquery.json\n create mode 100644 htdocs/sites/all/libraries/colorbox/content/ajax.html\n create mode 100644 htdocs/sites/all/libraries/colorbox/content/daisy.jpg\n create mode 100644 htdocs/sites/all/libraries/colorbox/content/daisy@2x.jpg\n create mode 100644 htdocs/sites/all/libraries/colorbox/content/homer.jpg\n create mode 100644 htdocs/sites/all/libraries/colorbox/content/marylou.jpg\n create mode 100644 htdocs/sites/all/libraries/colorbox/content/ohoopee1.jpg\n create mode 100644 htdocs/sites/all/libraries/colorbox/content/ohoopee2.jpg\n create mode 100644 htdocs/sites/all/libraries/colorbox/content/ohoopee3.jpg\n create mode 100644 htdocs/sites/all/libraries/colorbox/example1/colorbox.css\n create mode 100644 htdocs/sites/all/libraries/colorbox/example1/images/border.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example1/images/controls.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example1/images/loading.gif\n create mode 100644 htdocs/sites/all/libraries/colorbox/example1/images/loading_background.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example1/images/overlay.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example1/index.html\n create mode 100644 htdocs/sites/all/libraries/colorbox/example2/colorbox.css\n create mode 100644 htdocs/sites/all/libraries/colorbox/example2/images/controls.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example2/images/loading.gif\n create mode 100644 htdocs/sites/all/libraries/colorbox/example2/index.html\n create mode 100644 htdocs/sites/all/libraries/colorbox/example3/colorbox.css\n create mode 100644 htdocs/sites/all/libraries/colorbox/example3/images/controls.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example3/images/loading.gif\n create mode 100644 htdocs/sites/all/libraries/colorbox/example3/index.html\n create mode 100644 htdocs/sites/all/libraries/colorbox/example4/colorbox.css\n create mode 100644 htdocs/sites/all/libraries/colorbox/example4/images/border1.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example4/images/border2.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example4/images/loading.gif\n create mode 100644 htdocs/sites/all/libraries/colorbox/example4/index.html\n create mode 100644 htdocs/sites/all/libraries/colorbox/example5/colorbox.css\n create mode 100644 htdocs/sites/all/libraries/colorbox/example5/images/border.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example5/images/controls.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example5/images/loading.gif\n create mode 100644 htdocs/sites/all/libraries/colorbox/example5/images/loading_background.png\n create mode 100644 htdocs/sites/all/libraries/colorbox/example5/index.html\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-ar.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-bg.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-ca.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-cs.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-da.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-de.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-es.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-et.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-fa.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-fi.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-fr.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-gl.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-gr.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-he.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-hr.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-hu.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-id.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-it.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-ja.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-kr.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-lt.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-lv.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-my.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-nl.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-no.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-pl.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-pt-br.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-ro.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-ru.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-si.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-sk.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-sr.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-sv.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-tr.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-uk.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-zh-CN.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/i18n/jquery.colorbox-zh-TW.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/jquery.colorbox-min.js\n create mode 100644 htdocs/sites/all/libraries/colorbox/jquery.colorbox.js\n create mode 100644 htdocs/sites/all/modules/colorbox/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/colorbox/README.txt\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox-insert-image.tpl.php\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox.admin.inc\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox.api.php\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox.info\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox.install\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox.make\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox.module\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox.theme.inc\n create mode 100644 htdocs/sites/all/modules/colorbox/colorbox.variable.inc\n create mode 100644 htdocs/sites/all/modules/colorbox/drush/colorbox.drush.inc\n create mode 100644 htdocs/sites/all/modules/colorbox/images/controls.png\n create mode 100644 htdocs/sites/all/modules/colorbox/images/loading_animation.gif\n create mode 100644 htdocs/sites/all/modules/colorbox/images/loading_background.png\n create mode 100644 htdocs/sites/all/modules/colorbox/js/colorbox.js\n create mode 100644 htdocs/sites/all/modules/colorbox/js/colorbox_admin_settings.js\n create mode 100644 htdocs/sites/all/modules/colorbox/js/colorbox_inline.js\n create mode 100644 htdocs/sites/all/modules/colorbox/js/colorbox_load.js\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/default/colorbox_style.css\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/default/colorbox_style.js\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/default/images/controls.png\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/default/images/loading_animation.gif\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/default/images/loading_background.png\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/plain/colorbox_style.css\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/plain/colorbox_style.js\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/plain/images/controls.png\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/plain/images/loading_animation.gif\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/plain/images/loading_background.png\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome_screen.png\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.css\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.js\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/stockholmsyndrome/images/bg_tab.png\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/stockholmsyndrome/images/controls.png\n create mode 100644 htdocs/sites/all/modules/colorbox/styles/stockholmsyndrome/images/loading_animation.gif\n create mode 100644 htdocs/sites/all/modules/colorbox/views/colorbox.views.inc\n create mode 100644 htdocs/sites/all/modules/colorbox/views/colorbox_handler_field_colorbox.inc\n create mode 100644 htdocs/sites/all/modules/contextual_view_modes/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/contextual_view_modes/contextual_view_modes.admin.inc\n create mode 100644 htdocs/sites/all/modules/contextual_view_modes/contextual_view_modes.css\n create mode 100644 htdocs/sites/all/modules/contextual_view_modes/contextual_view_modes.info\n create mode 100644 htdocs/sites/all/modules/contextual_view_modes/contextual_view_modes.install\n create mode 100755 htdocs/sites/all/modules/contextual_view_modes/contextual_view_modes.module\n create mode 100644 htdocs/sites/all/modules/imagemagick/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/imagemagick/README.txt\n create mode 100644 htdocs/sites/all/modules/imagemagick/imagemagick.api.php\n create mode 100644 htdocs/sites/all/modules/imagemagick/imagemagick.info\n create mode 100644 htdocs/sites/all/modules/imagemagick/imagemagick.install\n create mode 100644 htdocs/sites/all/modules/imagemagick/imagemagick.module\n create mode 100644 htdocs/sites/all/modules/imagemagick/imagemagick_advanced/imagemagick_advanced.info\n create mode 100644 htdocs/sites/all/modules/imagemagick/imagemagick_advanced/imagemagick_advanced.install\n create mode 100644 htdocs/sites/all/modules/imagemagick/imagemagick_advanced/imagemagick_advanced.module\n create mode 100755 htdocs/sites/all/modules/imce/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/imce/README.txt\n create mode 100644 htdocs/sites/all/modules/imce/css/close.png\n create mode 100644 htdocs/sites/all/modules/imce/css/collapsed.png\n create mode 100644 htdocs/sites/all/modules/imce/css/delete.png\n create mode 100644 htdocs/sites/all/modules/imce/css/error.png\n create mode 100644 htdocs/sites/all/modules/imce/css/expanded.png\n create mode 100644 htdocs/sites/all/modules/imce/css/folder-open.png\n create mode 100644 htdocs/sites/all/modules/imce/css/folder-root.png\n create mode 100644 htdocs/sites/all/modules/imce/css/folder.png\n create mode 100644 htdocs/sites/all/modules/imce/css/header.png\n create mode 100644 htdocs/sites/all/modules/imce/css/help.png\n create mode 100644 htdocs/sites/all/modules/imce/css/imce-content.css\n create mode 100644 htdocs/sites/all/modules/imce/css/leaf.png\n create mode 100644 htdocs/sites/all/modules/imce/css/loading.gif\n create mode 100644 htdocs/sites/all/modules/imce/css/op.png\n create mode 100644 htdocs/sites/all/modules/imce/css/ops.png\n create mode 100644 htdocs/sites/all/modules/imce/css/resize.png\n create mode 100644 htdocs/sites/all/modules/imce/css/sendto.png\n create mode 100644 htdocs/sites/all/modules/imce/css/status.png\n create mode 100644 htdocs/sites/all/modules/imce/css/submit.png\n create mode 100644 htdocs/sites/all/modules/imce/css/thumb.png\n create mode 100644 htdocs/sites/all/modules/imce/css/tree.png\n create mode 100644 htdocs/sites/all/modules/imce/css/upload.png\n create mode 100644 htdocs/sites/all/modules/imce/css/view-box.png\n create mode 100644 htdocs/sites/all/modules/imce/css/view-list.png\n create mode 100644 htdocs/sites/all/modules/imce/css/warning.png\n create mode 100644 htdocs/sites/all/modules/imce/css/x-resizer.png\n create mode 100644 htdocs/sites/all/modules/imce/css/y-resizer.png\n create mode 100644 htdocs/sites/all/modules/imce/imce.info\n create mode 100644 htdocs/sites/all/modules/imce/imce.install\n create mode 100644 htdocs/sites/all/modules/imce/imce.module\n create mode 100644 htdocs/sites/all/modules/imce/inc/imce.admin.inc\n create mode 100644 htdocs/sites/all/modules/imce/inc/imce.core.profiles.inc\n create mode 100644 htdocs/sites/all/modules/imce/inc/imce.js.inc\n create mode 100644 htdocs/sites/all/modules/imce/inc/imce.page.inc\n create mode 100644 htdocs/sites/all/modules/imce/js/imce.js\n create mode 100644 htdocs/sites/all/modules/imce/js/imce_extras.js\n create mode 100644 htdocs/sites/all/modules/imce/js/imce_set_app.js\n create mode 100644 htdocs/sites/all/modules/imce/js/imce_set_inline.js\n create mode 100644 htdocs/sites/all/modules/imce/js/jquery.form.js\n create mode 100644 htdocs/sites/all/modules/imce/tpl/imce-content.tpl.php\n create mode 100644 htdocs/sites/all/modules/imce/tpl/imce-file-list.tpl.php\n create mode 100644 htdocs/sites/all/modules/imce/tpl/imce-page.tpl.php\n create mode 100644 htdocs/sites/all/modules/imce_wysiwyg/CHANGELOG.txt\n create mode 100644 htdocs/sites/all/modules/imce_wysiwyg/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/imce_wysiwyg/README.txt\n create mode 100644 htdocs/sites/all/modules/imce_wysiwyg/imce_wysiwyg.info\n create mode 100644 htdocs/sites/all/modules/imce_wysiwyg/imce_wysiwyg.module\n create mode 100644 htdocs/sites/all/modules/imce_wysiwyg/js/imce_wysiwyg.js\n create mode 100644 htdocs/sites/all/modules/intlinks/LICENSE.txt\n create mode 100755 htdocs/sites/all/modules/intlinks/README.txt\n create mode 100644 htdocs/sites/all/modules/intlinks/intlinks.info\n create mode 100755 htdocs/sites/all/modules/intlinks/intlinks.module\n create mode 100644 htdocs/sites/all/modules/intlinks/intlinks_common_functions.inc\n create mode 100644 htdocs/sites/all/modules/intlinks/intlinks_hide_bad_links.inc\n create mode 100644 htdocs/sites/all/modules/intlinks/intlinks_title_filter.inc\n create mode 100644 htdocs/sites/all/modules/pdfpreview/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/pdfpreview/README.txt\n create mode 100644 htdocs/sites/all/modules/pdfpreview/pdfpreview.info\n create mode 100644 htdocs/sites/all/modules/pdfpreview/pdfpreview.install\n create mode 100644 htdocs/sites/all/modules/pdfpreview/pdfpreview.module\n create mode 100644 htdocs/sites/all/modules/smart_trim/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/smart_trim/README.txt\n create mode 100644 htdocs/sites/all/modules/smart_trim/smart_trim.info\n create mode 100644 htdocs/sites/all/modules/smart_trim/smart_trim.module\n create mode 100644 htdocs/sites/all/modules/viewreference/LICENSE.txt\n create mode 100644 htdocs/sites/all/modules/viewreference/README.txt\n create mode 100644 htdocs/sites/all/modules/viewreference/viewreference.info\n create mode 100755 htdocs/sites/all/modules/viewreference/viewreference.install\n create mode 100755 htdocs/sites/all/modules/viewreference/viewreference.module\n create mode 100644 htdocs/sites/all/themes/boerner/templates/ds-1col--node-teaser.tpl.php",
-			"settings":
-			{
-				"buffer_size": 15783,
-				"line_ending": "Unix",
-				"name": "[SideBarGit@SublimeText]",
-				"scratch": true
-			}
-		},
-		{
-			"file": "htdocs/sites/all/themes/boerner/templates/ds-1col--node-teaser.tpl.php",
-			"settings":
-			{
-				"buffer_size": 1346,
-				"line_ending": "Unix",
-				"name": "dd"
-			}
-		},
-		{
-			"file": "htdocs/sites/all/modules/ds/includes/ds.registry.inc",
-			"settings":
-			{
-				"buffer_size": 18034,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "htdocs/sites/all/themes/boerner/templates/page.tpl.php",
-			"settings":
-			{
-				"buffer_size": 7216,
+				"buffer_size": 219904,
 				"line_ending": "Unix"
 			}
 		}
@@ -267,11 +222,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/hkramer/www/boerner"
+	],
 	"file_history":
 	[
+		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/templates/page.tpl.php",
+		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/templates/ds-1col--node-teaser.tpl.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/css/STARTER.css",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/boerner.info",
-		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/templates/page.tpl.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/template.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/zurb_foundation/template.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/zurb_foundation/ds_layouts/zf_2col_bricks/zf-2col-bricks.tpl.php",
@@ -358,6 +318,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"kontak",
 			"#453135",
 			"opacity",
 			"inherit",
@@ -401,15 +362,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 219024,
+						"buffer_size": 219904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								215411,
-								215411
+								215595,
+								215595
 							]
 						],
 						"settings":
@@ -526,582 +487,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 145863.0,
+						"translation.y": 146343.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 680,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "[SideBarGit@SublimeText]",
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"incomplete_sync": null,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "[SideBarGit@SublimeText]",
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"incomplete_sync": null,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "htdocs/sites/all/themes/boerner/templates/ds-1col--node-teaser.tpl.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1346,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1003,
-								1003
-							]
-						],
-						"settings":
-						{
-							"auto_name": "dd",
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"incomplete_sync": null,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "htdocs/sites/all/modules/ds/includes/ds.registry.inc",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 18034,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4029.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "htdocs/sites/all/themes/boerner/templates/page.tpl.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2685,
-								2685
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"sublime_auto_complete": true,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 765.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1180,6 +569,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
