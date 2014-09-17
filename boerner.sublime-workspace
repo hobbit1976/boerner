@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin"
+			],
+			[
 				"ma",
-				"margin-bottom"
+				"margin-top"
 			],
 			[
 				"pa",
-				"padding"
+				"padding-left"
+			],
+			[
+				"mi",
+				"min-width"
 			],
 			[
 				"fon",
@@ -30,10 +38,6 @@
 			[
 				"li",
 				"line-height"
-			],
-			[
-				"mi",
-				"min-height"
 			],
 			[
 				"mo",
@@ -100,10 +104,6 @@
 				"color"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
 				"pad",
 				"padding-left"
 			],
@@ -163,14 +163,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "htdocs/sites/all/themes/boerner/css/STARTER.css",
-			"settings":
-			{
-				"buffer_size": 219904,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -224,13 +216,19 @@
 	},
 	"expanded_folders":
 	[
-		"/home/hkramer/www/boerner"
+		"/home/hkramer/www/boerner",
+		"/home/hkramer/www/boerner/htdocs",
+		"/home/hkramer/www/boerner/htdocs/sites",
+		"/home/hkramer/www/boerner/htdocs/sites/all",
+		"/home/hkramer/www/boerner/htdocs/sites/all/themes",
+		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner",
+		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/templates"
 	],
 	"file_history":
 	[
+		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/css/STARTER.css",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/templates/page.tpl.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/templates/ds-1col--node-teaser.tpl.php",
-		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/css/STARTER.css",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/boerner.info",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/boerner/template.php",
 		"/home/hkramer/www/boerner/htdocs/sites/all/themes/zurb_foundation/template.php",
@@ -318,6 +316,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"view-mode-fahrzeugteaser_gross",
 			"kontak",
 			"#453135",
 			"opacity",
@@ -353,146 +352,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "htdocs/sites/all/themes/boerner/css/STARTER.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 219904,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215595,
-								215595
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"sublime_auto_complete": true,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 146343.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
